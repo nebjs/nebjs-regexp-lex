@@ -1,7 +1,7 @@
 {
   "name": "nebjs-regexp-lex",
   "version": "1.0.1",
-  "description": "string code",
+  "description": "nebjs regexp lex",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha",
