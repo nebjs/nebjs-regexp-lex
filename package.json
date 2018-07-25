@@ -1,6 +1,6 @@
 {
   "name": "nebjs-regexp-lex",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "description": "string code",
   "main": "index.js",
   "scripts": {
