@@ -1,0 +1,8 @@
+test/src
+###--compilers js:babel-core/register
+--require babel-core/register
+--recursive
+--reporter mochawesome
+--reporter-options reportDir=test/report,reportFilename=test
+--timeout 5000
+--slow 1000

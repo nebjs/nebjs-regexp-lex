@@ -1,0 +1,28 @@
+{
+  "name": "nebjs-regexp-lex",
+  "version": "0.1.0",
+  "description": "string code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "dev": "node_modules/.bin/webpack --config webpack/dev.config.js"
+  },
+  "author": "nebjs",
+  "license": "MIT",
+  "dependencies": {
+    "nebjs-util": "^1.1.9"
+  },
+  "devDependencies": {
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "mocha": "^5.2.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "mochawesome": "^3.0.2",
+    "chai": "^4.1.2"
+  }
+}

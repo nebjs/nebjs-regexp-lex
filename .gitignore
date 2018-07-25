@@ -1,0 +1,7 @@
+.idea
+.git
+node_modules
+package-lock.json
+doc/design
+test/report
+test/dev

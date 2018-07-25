@@ -1,0 +1,34 @@
+{
+  // 环境定义了预定义的全局变量
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true,
+    "amd": true,
+    "es6": true,
+    "mocha": true
+  },
+  // JavaScript 语言选项
+  "parserOptions": {
+    // ECMAScript 版本
+    "ecmaVersion": 9,
+    //设置为 "script" (默认) 或 "module"（如果你的代码是 ECMAScript 模块)
+    "sourceType": "module",
+    //想使用的额外的语言特性:
+    "ecmaFeatures": {
+      "globalReturn": true,
+      "impliedStrict": true,
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "plugins": [
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "no-console": "off",
+    "no-control-regex": "off"
+  }
+}
